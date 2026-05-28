@@ -26,6 +26,8 @@ export function Hero() {
           where elegance meets engineering.
         </p>
 
+        <WorkingIllustration />
+
         <div className="mt-12 flex items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: "0.4s" }}>
           <a
             href="#about"
