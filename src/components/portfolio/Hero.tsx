@@ -1,4 +1,5 @@
 import { ArrowDown } from "lucide-react";
+import { WorkingIllustration } from "./WorkingIllustration";
 
 export function Hero() {
   return (
