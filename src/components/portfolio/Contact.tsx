@@ -7,7 +7,7 @@ const socials = [
   { name: "Instagram", href: "https://instagram.com", icon: Instagram },
 ];
 
-const EMAIL = "hello@alexrivera.com";
+const EMAIL = "prasanna0102@zohomail.in";
 
 export function Contact() {
   return (
@@ -19,8 +19,8 @@ export function Contact() {
             Let's build something <span className="italic text-gradient">memorable</span>.
           </h2>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl">
-            Have a project in mind, a role to fill, or just want to say hello?
-            My inbox is always open.
+            Have a project in mind, a role to fill,
+            my inbox is always open.
           </p>
         </div>
 
@@ -61,7 +61,7 @@ export function Contact() {
             </div>
           </div>
           <p className="text-sm text-muted-foreground">
-            Based in San Francisco · Working worldwide
+            Based in Pune · Working worldwide
           </p>
         </div>
       </div>

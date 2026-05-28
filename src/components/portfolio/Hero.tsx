@@ -21,7 +21,7 @@ export function Hero() {
         </h1>
 
         <p className="mt-8 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: "0.2s" }}>
-          A curious mind with developer's toolkit. Turning coffee into code and ideas into elegant solutions. Always exploring what's next -- from frameworks
+          A curious mind with developer's toolkit. Turning coffee into code and ideas into elegant solutions. Always exploring what's next — from frameworks
           to future tech.
         </p>
 
