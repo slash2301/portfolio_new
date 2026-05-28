@@ -31,33 +31,60 @@ export function WorkingIllustration() {
               opacity="0.85"
             />
             {/* Neck */}
-            <rect x="192" y="135" width="16" height="18" rx="4" fill="currentColor" opacity="0.55" />
+            <rect x="190" y="155" width="20" height="25" rx="8" fill="#E8C4A0" />
             {/* Head */}
-            <circle cx="200" cy="120" r="22" fill="currentColor" opacity="0.65" />
+            <circle cx="200" cy="130" r="28" fill="#E8C4A0" />
             {/* Hair */}
-            <path d="M178 118 Q180 96 200 96 Q220 96 222 118 Q218 108 200 108 Q182 108 178 118 Z" fill="currentColor" opacity="0.9" />
+            <path
+            d="M 172 105 Q 172 85 200 82 Q 228 85 228 105 Q 228 115 200 118 Q 172 115 172 105 Z"
+            fill="#2C1810"
+            />
+            <ellipse cx="168" cy="115" rx="8" ry="14" fill="#2C1810" opacity="0.8" />
+            <ellipse cx="232" cy="115" rx="8" ry="14" fill="#2C1810" opacity="0.8" />
+
             {/* Glasses */}
             <circle cx="192" cy="122" r="4" stroke="var(--background)" strokeWidth="1.2" fill="none" />
             <circle cx="208" cy="122" r="4" stroke="var(--background)" strokeWidth="1.2" fill="none" />
             <line x1="196" y1="122" x2="204" y2="122" stroke="var(--background)" strokeWidth="1.2" />
-
-            {/* Left arm (typing) */}
-            <g className="origin-top" style={{ transformOrigin: "162px 180px" }}>
-              <g className="animate-[typeLeft_1.4s_ease-in-out_infinite]">
-                <rect x="148" y="178" width="34" height="10" rx="5" fill="var(--primary)" opacity="0.9" />
-                <circle cx="180" cy="183" r="6" fill="currentColor" opacity="0.6" />
-              </g>
-            </g>
-
-            {/* Right arm (alternates: typing + sip) */}
-            <g className="origin-top" style={{ transformOrigin: "238px 180px" }}>
-              <g className="animate-[sipCycle_6s_ease-in-out_infinite]">
-                <rect x="218" y="178" width="34" height="10" rx="5" fill="var(--primary)" opacity="0.9" />
-                <circle cx="220" cy="183" r="6" fill="currentColor" opacity="0.6" />
-              </g>
-            </g>
           </g>
         </g>
+
+        <path
+          d="M 200 130 L 200 145"
+          stroke="#D4A87F"
+          strokeWidth="1.5"
+          fill="none"
+          strokeLinecap="round"
+        />
+
+        
+        <circle cx="198" cy="145" r="1.5" fill="#D4A87F" />
+        <circle cx="202" cy="145" r="1.5" fill="#D4A87F" />
+
+        {/* Mouth - friendly smile */}
+        <path
+          d="M 190 155 Q 200 162 210 155"
+          fill="none"
+          stroke="#C9876F"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+        />
+
+        {/* Eyebrows */}
+        <path
+          d="M 180 118 Q 188 116 196 117"
+          stroke="#1A0F08"
+          strokeWidth="1.5"
+          fill="none"
+          strokeLinecap="round"
+        />
+        <path
+          d="M 204 117 Q 212 116 220 118"
+          stroke="#1A0F08"
+          strokeWidth="1.5"
+          fill="none"
+          strokeLinecap="round"
+        />
 
         {/* Laptop */}
         <g>
