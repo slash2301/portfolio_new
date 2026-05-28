@@ -1,5 +1,5 @@
 import { ArrowDown } from "lucide-react";
-
+import { WorkingIllustration } from "./WorkingIllustration";
 
 export function Hero() {
   return (
@@ -26,6 +26,7 @@ export function Hero() {
           to future tech.
         </p>
 
+        <WorkingIllustration />
 
         <div className="mt-12 flex items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: "0.4s" }}>
           <a
