@@ -1,5 +1,6 @@
 import { ArrowDown } from "lucide-react";
 
+
 export function Hero() {
   return (
     <section id="top" className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 pt-24">
@@ -24,6 +25,7 @@ export function Hero() {
           A curious mind with developer's toolkit. Turning coffee into code and ideas into elegant solutions. Always exploring what's next — from frameworks
           to future tech.
         </p>
+
 
         <div className="mt-12 flex items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: "0.4s" }}>
           <a
