@@ -1,12 +1,12 @@
 const skills = [
-  "Product Design", "UI/UX", "React", "TypeScript",
-  "Design Systems", "Motion", "Framer", "Figma",
+  "Java", "Python", "Spring Boot", "Microservices",
+  "Spring Security", "RESTful API Design","Hibernate/JPA", "MySQL",
 ];
 
 const stats = [
-  { value: "6+", label: "Years of experience" },
-  { value: "40+", label: "Projects shipped" },
-  { value: "12", label: "Happy clients" },
+  { value: "1+", label: "Years of experience" },
+  //{ value: "", label: "Projects shipped" },
+  //{ value: "", label: "Happy clients" },
 ];
 
 export function About() {
@@ -23,15 +23,10 @@ export function About() {
         <div className="grid md:grid-cols-5 gap-12 md:gap-16">
           <div className="md:col-span-3 space-y-6 text-base sm:text-lg text-muted-foreground leading-relaxed">
             <p>
-              I'm a designer and developer based in San Francisco, with a soft spot for
-              interfaces that feel inevitable. Over the past six years, I've helped startups
-              and established teams turn complex ideas into products people genuinely enjoy using.
+              
             </p>
             <p>
-              My approach is equal parts strategy and play — I care deeply about typography,
-              motion, and the small details that make digital things feel alive. When I'm
-              not designing, you'll find me sketching, reading sci-fi, or hunting for the
-              perfect espresso.
+              
             </p>
           </div>
 
