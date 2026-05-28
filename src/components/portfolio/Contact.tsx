@@ -1,10 +1,9 @@
-import { Github, Linkedin, Twitter, Instagram, Mail, ArrowUpRight } from "lucide-react";
+import { Github, Linkedin, Twitter, Instagram, Mail, ArrowUpRight, Gitlab } from "lucide-react";
 
 const socials = [
-  { name: "GitHub", href: "https://github.com", icon: Github },
-  { name: "LinkedIn", href: "https://linkedin.com", icon: Linkedin },
-  { name: "Twitter", href: "https://twitter.com", icon: Twitter },
-  { name: "Instagram", href: "https://instagram.com", icon: Instagram },
+  { name: "GitHub", href: "https://github.com/slash2301", icon: Github },
+  { name : "GitLab", href: "https://gitlab.com/dev.prasanna0102", icon: Gitlab},
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/prasanna-shinde-27a602209/", icon: Linkedin },
 ];
 
 const EMAIL = "prasanna0102@zohomail.in";
