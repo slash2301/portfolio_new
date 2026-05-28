@@ -60,6 +60,33 @@
     0% { background-position: 0% 50%; }
     100% { background-position: 200% 50%; }
   }
+  @keyframes sway {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-1.5px) rotate(0.4deg); }
+  }
+  @keyframes typeLeft {
+    0%, 100% { transform: rotate(0deg) translateY(0); }
+    50% { transform: rotate(-4deg) translateY(-2px); }
+  }
+  @keyframes sipCycle {
+    0%, 55% { transform: rotate(0deg) translate(0, 0); }
+    30% { transform: rotate(3deg) translate(0, -1px); }
+    70%, 85% { transform: rotate(-55deg) translate(-18px, -22px); }
+    100% { transform: rotate(0deg) translate(0, 0); }
+  }
+  @keyframes steam {
+    0% { transform: translateY(2px); opacity: 0.1; }
+    40% { opacity: 0.55; }
+    100% { transform: translateY(-10px); opacity: 0; }
+  }
+  @keyframes codeBlink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.85; }
+  }
+  @keyframes twinkle {
+    0%, 100% { opacity: 0.2; transform: scale(0.8); }
+    50% { opacity: 0.8; transform: scale(1.2); }
+  }
 }
 
 /* Light theme — warm, soft, beautiful */
