@@ -39,3 +39,5 @@ wrangler.jsonc
 
 .prettierignore
 .prettierrc
+
+.lovable
