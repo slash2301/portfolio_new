@@ -42,6 +42,3 @@ Welcome to my personal portfolio repository, featuring a responsive showcase of 
 | `src/server.ts` | Server/SSR handler for production (Wrangler `main`) |
 | `src/start.ts` | TanStack Start instance and request middleware |
 | `src/router.tsx` | Router creation and React Query client |
-
-## 📄 License
-This repository is open source released under the [MIT License](LICENSE).
