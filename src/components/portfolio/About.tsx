@@ -1,12 +1,12 @@
 const skills = [
-  "Product Design", "UI/UX", "React", "TypeScript",
-  "Design Systems", "Motion", "Framer", "Figma",
+  "Java", "Golang", "Python", "JavaScript", "Microservices",
+  "Spring Security", "Hibernate/JPA", "MySQL", "Redis", "Angular"
 ];
 
 const stats = [
-  { value: "6+", label: "Years of experience" },
-  { value: "40+", label: "Projects shipped" },
-  { value: "12", label: "Happy clients" },
+  { value: "1+", label: "Years of experience" },
+  //{ value: "40+", label: "Projects shipped" },
+  //{ value: "12", label: "Happy clients" },
 ];
 
 export function About() {
@@ -23,15 +23,14 @@ export function About() {
         <div className="grid md:grid-cols-5 gap-12 md:gap-16">
           <div className="md:col-span-3 space-y-6 text-base sm:text-lg text-muted-foreground leading-relaxed">
             <p>
-              I'm a designer and developer based in San Francisco, with a soft spot for
-              interfaces that feel inevitable. Over the past six years, I've helped startups
-              and established teams turn complex ideas into products people genuinely enjoy using.
+              I'm a backend developer who finds satisfaction in the gap between a problem and it's solution — that space where clean code, thoughtful design and a 
+              bit of stubbornness turn complexity into something that just works. Based in Pune, I currently build Java based tools and API integrations at Tech Mahindra,
+              where my code runs in producion for one of the Europe's largest telecom networks.
             </p>
             <p>
-              My approach is equal parts strategy and play — I care deeply about typography,
-              motion, and the small details that make digital things feel alive. When I'm
-              not designing, you'll find me sketching, reading sci-fi, or hunting for the
-              perfect espresso.
+              When I am not pushing commits, I'm usually playing guitar, getting lost in music, or dissecting the latest geopolitical developments with more enthusiasm than
+              is probably healthy. I am currently deepening my backend craft across Spring Boot, Docker and Distributed Systems. But I firmly believe the best engineers are the
+              ones who know when to close the laptop too.
             </p>
           </div>
 

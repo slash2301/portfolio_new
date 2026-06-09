@@ -17,12 +17,12 @@ export function Hero() {
         </div>
 
         <h1 className="font-display text-5xl sm:text-7xl md:text-8xl leading-[0.95] tracking-tight animate-blur-in">
-          Hi, I'm <span className="text-gradient italic">Alex Rivera</span>
+          Hi, I'm <span className="text-gradient italic">Prasanna Shinde</span>
         </h1>
 
         <p className="mt-8 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: "0.2s" }}>
-          A product designer & developer crafting thoughtful digital experiences
-          where elegance meets engineering.
+          A curious mind with developer's toolkit. Turning coffee into code and ideas into elegant solutions. Always exploring what's next — from frameworks
+          to future tech.
         </p>
 
         <div className="mt-12 flex items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: "0.4s" }}>

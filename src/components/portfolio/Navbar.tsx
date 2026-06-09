@@ -29,7 +29,7 @@ export function Navbar() {
     >
       <nav className="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
         <a href="#top" className="font-display text-xl tracking-tight hover:opacity-80 transition-opacity">
-          Alex Rivera<span className="text-primary">.</span>
+          Prasanna Shinde<span className="text-primary">.</span>
         </a>
         <div className="flex items-center gap-1 sm:gap-2">
           {links.map((l) => (
