@@ -10,10 +10,10 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Prasanna Shinde — Software Developer" },
-      { name: "description", content: "New personal portfolio of Prasanna Shinde" },
-      { property: "og:title", content: "Prasanna Shinde — Software Developer Portfolio" },
-      { property: "og:description", content: "New personal portfolio of Prasanna Shinde." },
+      { title: "Alex Rivera — Designer & Developer Portfolio" },
+      { name: "description", content: "Personal portfolio of Alex Rivera, a product designer and developer crafting thoughtful digital experiences." },
+      { property: "og:title", content: "Alex Rivera — Designer & Developer" },
+      { property: "og:description", content: "Personal portfolio of Alex Rivera." },
     ],
   }),
 });
