@@ -30,3 +30,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.lovable
+.prettierignore
+.prettierrc
+bun.lock
+bunfig.toml
+vite.config.ts
+wrangler.jsonc
